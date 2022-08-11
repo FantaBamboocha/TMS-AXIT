@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 36px;
+    color: #000000;
+    text-align: center;
+    line-height: 150px;
+}
+
+hr {
+    width: 170px;
+    border: 1px solid #EC7979;
+    margin: 0 auto;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #86878B;
+    text-align: center;
+    margin-bottom: 110px;
+    border-bottom: #EC7979;
+}
+
+.card1 {
+    display: inline-block;
+    width: 370px;
+}
+
+.card_image {
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+    border: 1px solid #EC7979;
+    border-radius: 50%;
+}
+
+.image1 {
+    padding-top: 8px;
+    padding-left: 8px;
+}
+
+.card2 {
+    display: inline-block;
+    width: 370px;
+    margin: 0 30px;
+}
+
+.image2 {
+    padding-top: 22px;
+    padding-left: 12px;
+}
+
+.image3 {
+    padding-top: 12px;
+    padding-left: 24px;
+}
+
+.card_title {
+    margin-top: 40px;
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 100px;
+    color: #000000;
+}
+
+.card_subtitle {
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
