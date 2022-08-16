@@ -11,39 +11,95 @@
     <title>Awesome</title>
 </head>
 <body>
-    <div class="container">
-        <h1 class="title"> WHY THIS IS AWESOME <hr></h1>
+<section class="design-description">
+    <div class="wrapper">
+        <h2 class="title">why this is awesome</h2>
+        <div class="line"></div>
          <p class="subtitle"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-        <div class="card1">
-            <div class="card_image">
-                <!-- только добавив div "image", я смог выровнять картинку в центре круга
-                т.к. без div "image", применяя pading к div "card_image", весь div увеличивался в размерах,
-                а картинка оставалась в углу -->
-                <div class="image1"> 
-                    <img src="assets/img/Vector1.svg" alt="img">
+        <div class="design-content">
+            <div class="design-card">
+                <div class="card_image">
+                    <div class="image1"> 
+                        <img src="assets/img/Vector1.svg" alt="img">
+                    </div>
                 </div>
+                    <h2 class="design-card_title">Thoughtful Design</h2>
+                <p class="design-card_subtitle">Lorem ipsum dolor sit amet, consectetur <br>adipiscing<br> elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
             </div>
-                <h2 class="card_title">Thoughtful Design</h2>
-            <p class="card_subtitle">Lorem ipsum dolor sit amet, consectetur <br>adipiscing<br> elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
-        </div>
-        <div class="card2">
-            <div class="card_image">
-                <div class="image2"> 
-                    <img src="assets/img/Vector2.svg" alt="img">
+            <div class="design-card design-card--center">
+                <div class="card_image">
+                    <div class="image2"> 
+                        <img src="assets/img/Vector2.svg" alt="img">
+                    </div>
                 </div>
+                <h2 class="design-card_title">Thoughtful Design</h2>
+                <p class="design-card_subtitle">Lorem ipsum dolor sit amet, consectetur <br>adipiscing<br> elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
             </div>
-            <h2 class="card_title">Thoughtful Design</h2>
-            <p class="card_subtitle">Lorem ipsum dolor sit amet, consectetur <br>adipiscing<br> elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
-        </div>
-        <div class="card1">
-            <div class="card_image">
-                <div class="image3"> 
-                    <img src="assets/img/Vector3.svg" alt="img">
+            <div class="design-card">
+                <div class="card_image">
+                    <div class="image3"> 
+                        <img src="assets/img/Vector3.svg" alt="img">
+                    </div>
                 </div>
+                <h2 class="design-card_title">Thoughtful Design</h2>
+                <p class="design-card_subtitle">Lorem ipsum dolor sit amet, consectetur <br>adipiscing<br> elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
             </div>
-            <h2 class="card_title">Thoughtful Design</h2>
-            <p class="card_subtitle">Lorem ipsum dolor sit amet, consectetur <br>adipiscing<br> elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
         </div>
     </div>
+</section>
+
+<section class="pricing-options">
+    <div class="wrapper">
+        <div class="headline">
+            <h2 class="title">pricing options</h2>
+        </div>     
+            <div class="line"></div>
+            <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="pricing-content">
+            <div class="pricing-card">
+                <ul class="pricing-list">
+                    <li class="pricing-list__item pricing-list__item--rate">Basic</li>
+                    <li class="pricing-list__item pricing-list__item--price">$10</li>
+                    <li class="pricing-list__item pricing-list__item--date">Free for life</li>
+                    <li class="pricing-list__item">1 gb of space</li>
+                    <li class="pricing-list__item">1 gb of space</li>
+                    <li class="pricing-list__item">1 gb of space</li>
+                    <li class="pricing-list__item">1 gb of space</li>
+                    <li class="pricing-list__item">1 gb of space</li>
+                    <li class="pricing-list__item">1 gb of space</li>
+                </ul>
+        </div>
+        <div class="pricing-card pricing-card--center">
+            <ul class="pricing-list pricing-list--shasow">
+                <div class="pricing-list--shadow">
+                    <li class="pricing-list__item pricing-list__item--rate">Basic</li>
+                    <li class="pricing-list__item pricing-list__item--price">$10</li>
+                    <li class="pricing-list__item pricing-list__item--date">Free for life</li>
+                    <li class="pricing-list__item">1 gb of space</li>
+                    <li class="pricing-list__item">1 gb of space</li>
+                    <li class="pricing-list__item">1 gb of space</li>
+                    <li class="pricing-list__item">1 gb of space</li>
+                    <li class="pricing-list__item">1 gb of space</li>
+                    <li class="pricing-list__item">1 gb of space</li>
+                    <li class="pricing-list__item pricing-list__item--offset">.</li>
+                </div>
+            </ul>
+    </div>
+    <div class="pricing-card">
+        <ul class="pricing-list">
+            <li class="pricing-list__item pricing-list__item--rate">Basic</li>
+            <li class="pricing-list__item pricing-list__item--price">$10</li>
+            <li class="pricing-list__item pricing-list__item--date">Free for life</li>
+            <li class="pricing-list__item">1 gb of space</li>
+            <li class="pricing-list__item">1 gb of space</li>
+            <li class="pricing-list__item">1 gb of space</li>
+            <li class="pricing-list__item">1 gb of space</li>
+            <li class="pricing-list__item">1 gb of space</li>
+            <li class="pricing-list__item">1 gb of space</li>
+        </ul>
+    </div>
+        </div>
+    </div>
+</section>
 </body>
 </html>
