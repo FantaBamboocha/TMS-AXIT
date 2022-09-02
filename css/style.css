@@ -202,6 +202,7 @@
     border-bottom-right-radius: 10px;
     background-color: #EC7979;
     color: #FFFFFF;
+    cursor: pointer;
     transition: 0.3s;
 }
 
@@ -729,6 +730,7 @@
     outline: none;
     border: 0;
     border-bottom: 1px solid #BDBDBD;
+    resize: none;
 }
 
 .contact-form-message textarea::placeholder {
